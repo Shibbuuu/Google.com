@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+   
+
+    height: 100vh;
+    font-family: sans-serif;
+    width: 100%;
+
+}
+.nav{
+    cursor: pointer;
+    
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    height: 100px;
+    padding: 5px;
+   
+    background-color:blue;
+    border: 2px solid black;
+    justify-content: space-between;
+    
+    box-shadow: 0 5px 15px black;
+}
+.left-nav{
+  
+    margin-left: 20px;
+    align-items: center;
+    
+
+}
+.left-nav img{
+    width: 75px;
+    margin-right: 10px;
+}
+
+.middle-nav{
+   display: flex;
+    background: transparent;
+    justify-content: center;
+    margin-right: 150px;
+}
+.middle-nav p{
+    
+    color: white;
+    font-size: 22px;
+    font-weight: 500px;
+    margin-right:10px;
+} 
+.middle-nav p:hover{
+    color: red;
+
+
+} 
+
+.nave{
+    
+    position: absolute;
+    right: 15px;
+    color: yellow;
+    font-size: 22px;
+
+}
+.search{
+    background: transparent;
+    width: 800px;
+    height: 35px;
+    display: flex;
+    box-shadow: inset 0px 5px 15px black;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    display: flex;
+    
+   
+    
+}
+.search input{
+    width: 800px;
+    
+    color: white;
+    background: transparent;
+    outline: none;
+    border:none;
+    font-size: 18px;
+  
+    
+}
+
+.search p:hover{
+    color: yellow;
+}
+.find{
+    position: absolute;
+    bottom: 40%;
+    left: 34%;
+    align-items: center;
+    
+    justify-content: center;
+    text-align: center;
+}
+.find p{
+    color: blue;
+    font-weight: 500px;
+    font-size: 122px;
+
+}
+.find-input{
+    width: 500px;
+    border: 2px solid white;
+    height: 50px;
+    background: transparent;
+    box-shadow: 0 5px 15px black;
+    border-radius: 30px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.find-input input{
+    color: black;
+    font-size: 22px;
+    width: 400px;
+    border: none;
+    outline: none;
+    
+   
+
+
+}
+.button{
+    
+    position: absolute;
+    bottom: 41%;
+    right: 24%;
+    width:100px;
+    height: 40px;
+    background: blue;
+    border-radius: 30px;
+    border: 2px solid blue;
+    box-shadow: 0 5px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.button button{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+
+
+    
+}
